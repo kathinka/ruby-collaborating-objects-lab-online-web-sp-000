@@ -22,7 +22,7 @@ end
   # @@all.find do |artist|
   #   artist.name == name
   @@all.include?(artist)
-  artist.name == name
+  #artist.name == name
    #end
   end
 
