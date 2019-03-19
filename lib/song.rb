@@ -9,9 +9,9 @@ class Song
 
 @@all =[]
 
-def self.save
- @@all << self
-end
+  def self.save
+   @@all << self
+  end
 
   def artist=(artist)
     @artist = artist
