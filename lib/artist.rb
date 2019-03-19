@@ -23,7 +23,7 @@ end
   #   artist.name == name
   @@all.include?|artist|
   artist.name == name
-   end
+   #end
   end
 
   def self.create_by_name(name)
