@@ -19,12 +19,9 @@ end
 
 
   def self.find_by_name(name)
-  # @@all.find do |artist|
-  #   artist.name == name
-  @@all.include?(name)
-  artist.name
-  #artist.name == name
-   #end
+    @@all.find do |artist|
+    artist.name == name
+    end
   end
 
   def self.create_by_name(name)
