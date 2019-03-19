@@ -9,7 +9,7 @@ class Song
 
 @@all =[]
 
-  def self.save
+  def self.all
    @@all << self
   end
 
