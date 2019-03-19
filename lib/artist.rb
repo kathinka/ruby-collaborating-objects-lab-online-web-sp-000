@@ -20,7 +20,7 @@ end
 
   def self.find_by_name(name)
     @@all.find do |artist|
-      artist.name == name
+    artist.name == name
     end
   end
 
@@ -34,9 +34,9 @@ end
   end
 
   def add_song(song)
-  #song.artist = self
-  @songs << song unless @songs.include?(song)
-  #binding.pry
+    @songs << song unless @songs.include?(song)
+    song.artist = self unless song.artist = self
+    #binding.pry
 
   end
 
